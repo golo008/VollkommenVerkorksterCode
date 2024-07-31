@@ -19,6 +19,9 @@ public class v_v_k_main {
     String password = "123456";
 
     public static void main(String[] args) throws IOException {
+        if (args[1] == "Brot") {
+            System.out.println("Brot");
+        }
         v_v_k_main main = new v_v_k_main();
         main.web_server();
 
