@@ -1,3 +1,5 @@
+package vvkm;
+
 import com.sun.net.httpserver.HttpServer;
 
 import java.io.ByteArrayInputStream;
@@ -11,9 +13,8 @@ import java.sql.Statement;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.io.IOException;
 
-public class v_v_k_main {
+public class VVKM {
 
     // Hardcoded credentials
     String password = "123456";
@@ -22,7 +23,7 @@ public class v_v_k_main {
         if (args[1] == "Brot") {
             System.out.println("Brot");
         }
-        v_v_k_main main = new v_v_k_main();
+        VVKM main = new VVKM();
         main.web_server();
 
         // SQL Injection vulnerability
